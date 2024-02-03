@@ -1,0 +1,132 @@
+body {
+	background: linear-gradient(-45deg, #e9c4b8, #d47197, #a04747, #c40808);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+  
+  .caption{
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+  }
+  .caption span.border {
+    background-color:  #111;
+    color: #fff;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
+  }
+  
+  h3 {
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font: 20px "lato", sans-serif;
+    color: #111
+  }
+  .button {
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-decoration:none;
+    box-shadow: 1px 1px;
+  }
+
+  
+  table, th, td{
+    border: 1px solid;
+    width: 50%; 
+  }
+  /*Shire*/
+  .dark-olive{
+    background-color: #556b2f;
+  }
+  .yellow-green{
+    background-color: #9ACD32;
+  }
+  .golden-rod{
+    background-color: #DAA520;
+  }
+  .dark-grey{
+    background-color: #63666a;
+  }
+  .forest-green{
+    background-color: #228B22;
+  }
+  .green{
+    background-color: #008000;
+  }
+
+  /*Rivendell*/
+  .dark-cyan{
+    background-color: #008B8B;
+  }
+  .powder-blue{
+    background-color: #B0E0E6;
+  }
+  .medium-purple{
+    background-color: #9370DB;
+  }
+  .medium-orchid{
+    background-color: #BA55D3;
+  }
+  .thistle{
+    background-color: #D8BFD8;
+  }
+  .lavender-blush{
+    background-color: #FFF0F5;
+  }
+  /* Moria*/
+  .black{
+    background-color: #000;
+  }
+  .dark-grey {
+    background-color: #404040;
+  }
+  .light-grey{
+    background-color: #A0A0A0A0;
+  }
+  .dusty-grey{
+    background-color: #897979;
+  }
+  .dark-teal{
+    background-color: #669999;
+  }
+  .grey-blue{
+    background-color: #98C7C7;
+  }
+
+  /*Mount Doom */
+  .dirty-brown{
+    background-color: #A28C75;
+  }
+  .brown{
+    background-color: #5F370F;
+  }
+  .light-brown {
+    background-color: #975A1C;
+  }
+  .dark-red {
+    background-color: #B90D2A;
+  }
+  .fire-red{
+    background-color: #FD2007;
+  }
+  .fire-gold{
+    background-color: #FFCC00;
+  }

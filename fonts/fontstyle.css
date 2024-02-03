@@ -1,0 +1,72 @@
+/*
+font-family: 'Almendra', serif;
+font-family: 'Cormorant Upright', serif;
+font-family: 'Kalam', cursive;
+font-family: 'Lemonada', cursive;
+*/
+/*hobbit font*/
+body {
+    background-color: rgb(34, 33, 33);
+    color:rgb(226, 154, 66);
+    
+}
+h1 {
+    background-color: rgb(116, 97, 100);
+    
+}
+.hobbit {
+    font-family: 'Lemonada', cursive;
+    font-weight:300;
+}
+.hfs300 {
+    font-family: 'Lemonada', cursive;
+    font-weight:300;
+}
+.hfs400 {
+    font-family: 'Lemonada', cursive;
+    font-weight:400;
+}
+.hfs700 {
+    font-family: 'Lemonada', cursive;
+    font-weight:700;
+}
+/*elvish*/
+.elvish {
+    font-family: 'Cormorant Upright', serif;
+    font-weight:300;
+}
+.efs300 {
+    font-family: 'Cormorant Upright', serif;
+    font-weight:300;
+}
+.efs400 {
+    font-family: 'Cormorant Upright', serif;
+    font-weight:400;
+}
+.efs700 {
+    font-family: 'Cormorant Upright', serif;
+    font-weight:700;
+}
+/*wizzard*/
+.wizzard {
+    font-family: 'Almendra', serif;
+    font-weight:400;
+}
+.wfs400 {
+    font-family: 'Almendra', serif;
+    font-weight:400;
+}
+.wfsi400 {
+    font-family: 'Almendra', serif;
+    font-weight:400;
+    font-style: italic;
+}
+.wfs700 {
+    font-family: 'Almendra', serif;
+    font-weight:700;
+}
+.fonts {
+    display:block;
+    border-style: ridge;
+    border-color: rgb(116, 97, 100);
+}
